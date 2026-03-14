@@ -1,0 +1,272 @@
+<header class="main-header flex">
+    <!-- Header Lower -->
+    <div id="header">
+        <div class="header-top">
+            <div class="header-top-wrap flex-two">
+                <div class="header-top-right">
+                    <ul class=" flex-three">
+                        <li class="flex-three">
+                            <i class="fa-regular fa-calendar-check" style="color: rgba(77, 165, 40, 1.00);"></i>
+                            <span>Thursday, Mar 26, 2021</span>
+                        </li>
+                        <li class="flex-three">
+                            <i class="fa-solid fa-envelope" style="color: rgba(77, 165, 40, 1.00);"></i>
+                            <span>Info@Webmail.Com</span>
+                        </li>
+                        <li class="flex-three">
+                            <i class="fa-solid fa-phone" style="color: rgba(77, 165, 40, 1.00);"></i>
+                            <span>684 555-0102 490</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-top-left flex-two">
+                    <a href="contact-us.html" class="booking">
+                        <i class="fa-regular fa-calendar-plus" style="color: rgba(77, 165, 40, 1.00);"></i>
+                        <span>Booking Now</span>
+                    </a>
+                    <div class="follow-social flex-two">
+                        <span>Follow Us :</span>
+                        <ul class="flex-two">
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-facebook-f" style="color: rgba(77, 165, 40, 1.00);"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-square-instagram" style="color: rgba(77, 165, 40, 1.00);"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-youtube" style="color: rgba(77, 165, 40, 1.00);"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-linkedin-in" style="color: rgba(77, 165, 40, 1.00);"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-lower">
+            <div class="tf-container full">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="inner-container flex justify-space align-center">
+                            <!-- Logo Box -->
+                            <div class="mobile-nav-toggler mobie-mt mobile-button">
+                                <i class="icon-Vector3"></i>
+                            </div>
+                            <div class="logo-box">
+                                <div class="logo">
+                                    <a href="index.html">
+                                        <img src="/images/logo.png" alt="Logo">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="nav-outer flex align-center">
+                                <!-- Main Menu -->
+                                <nav class="main-menu show navbar-expand-md">
+                                    <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
+                                        <ul class="navigation clearfix">
+                                            <li class="current">
+                                                <a href="index.html">Home</a>
+                                            </li>
+                                            <li class="dropdown2">
+                                                <a href="#">Tour</a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="archieve-tour.html">Archieve tour</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="tour-package-v2.html">Tour left sidebar</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="tour-package-v4.html">Tour package </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="tour-single.html">Tour Single </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown2">
+                                                <a href="#">Destination</a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="tour-destination-v1.html">Destination
+                                                            V1</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="tour-destination-v2.html">Destination
+                                                            V2</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="tour-destination-v3.html">Destination
+                                                            V3</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="single-destination.html">Destination
+                                                            Single</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown2 ">
+                                                <a href="#">Blog</a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="blog.html">Blog</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="blog-details.html">Blog Detail</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown2">
+                                                <a href="#">Pages</a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="about-us.html">About Us</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="team.html">Team member</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="gallery.html">Gallery</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="terms-condition.html">Terms & Condition</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="help-center.html">Help center</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown2">
+                                                <a href="#">Dashboard</a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="admin/dashboard.html">Dashboard</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="admin/my-booking.html">My booking</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="admin/my-listing.html">My Listing</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="add-tour.html">Add Tour</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="my-favorite.html">My Favorites</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="my-profile.html">My profile</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="contact-us.html">Contact</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                                <!-- Main Menu End-->
+                            </div>
+                            <div class="header-account flex align-center">
+                                <div class="language">
+                                    <div class="nice-select" tabindex="0">
+                                        <img src="images/page/language.svg" alt="">
+                                        <span class="current">English</span>
+                                        <ul class="list">
+                                            <li data-value class="option selected">
+                                                <img src="images/page/language.svg" alt="">English
+
+                                            </li>
+                                            <li data-value="Vietnam" class="option">
+                                                <img src="images/page/language.svg" alt="">Vietnam
+
+                                            </li>
+                                            <li data-value="German" class="option">
+                                                <img src="images/page/language.svg" alt="">German
+
+                                            </li>
+                                            <li data-value="Russian" class="option">
+                                                <img src="images/page/language.svg" alt="">Russian
+
+                                            </li>
+                                            <li data-value="Canada" class="option">
+                                                <img src="images/page/language.svg" alt="">Canada
+
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="currency">
+                                    <div class="nice-select" tabindex="0">
+                                        <span class="current">USD</span>
+                                        <ul class="list">
+                                            <li data-value class="option selected">USD</li>
+                                            <li data-value="vnd" class="option">VND</li>
+                                            <li data-value="ero" class="option">ERO</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="search-mobie relative">
+                                    <div class="dropdown">
+                                        <a type="button" class="show-search" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="icon-Vector5"></i>
+                                        </a>
+                                        <ul class="dropdown-menu top-search">
+                                            <form action="/" id="search-bar-widget">
+                                                <input type="text" placeholder="Search here...">
+                                                <button type="button">
+                                                    <i class="icon-search-2"></i>
+                                                </button>
+                                            </form>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="register">
+                                    <ul class="flex align-center">
+                                        <li>
+                                            <a href="login.html" class="flex-three">
+                                                <img src="images/page/avata.jpg" alt="image">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="images/page/fl1.png" alt="" class="fly-ab">
+        </div>
+    </div>
+    <!-- End Header Lower -->
+    <a href="#" class="header-sidebar flex-three" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+        <i class="icon-Bars"></i>
+    </a>
+    <!-- Mobile Menu  -->
+    <div class="close-btn">
+        <span class="icon flaticon-cancel-1"></span>
+    </div>
+    <div class="mobile-menu">
+        <div class="menu-backdrop"></div>
+        <nav class="menu-box">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img src="images/logo2.png" alt="">
+                </a>
+            </div>
+            <div class="bottom-canvas">
+                <div class="menu-outer"></div>
+            </div>
+        </nav>
+    </div>
+    <!-- End Mobile Menu -->
+</header>
