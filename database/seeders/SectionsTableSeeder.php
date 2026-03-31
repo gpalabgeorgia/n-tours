@@ -16,10 +16,11 @@ class SectionsTableSeeder extends Seeder
     {
         $sectionsRecords = [
             ['id'=>1, 'name'=>'მთავარი', 'status'=>1],
-            ['id'=>2, 'name'=>'მამაკაცი', 'status'=>1],
-            ['id'=>3, 'name'=>'ქალი', 'status'=>1],
-            ['id'=>4, 'name'=>'ბავშვი', 'status'=>1],
-            ['id'=>5, 'name'=>'სუვენირები', 'status'=>1],
+            ['id'=>2, 'name'=>'ტურები', 'status'=>1],
+            ['id'=>4, 'name'=>'ბლოგი', 'status'=>1],
+            ['id'=>5, 'name'=>'ჩვენს შესახებ', 'status'=>1],
+            ['id'=>6, 'name'=>'გალერეა', 'status'=>1],
+            ['id'=>7, 'name'=>'კონტაქტი', 'status'=>1],
         ];
         Sections::insert($sectionsRecords);
     }

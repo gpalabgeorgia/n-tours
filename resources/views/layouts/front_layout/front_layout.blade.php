@@ -53,5 +53,7 @@
 <script src="{{ asset('js/front_js/main.js') }}"></script>
 
 <script src="{{ asset('fonts/fontawesome7/js/all.js') }}"></script>
+
+<script src="{{ asset('js/front_js/front_script.js') }}"></script>
 </body>
 </html>

@@ -7,12 +7,12 @@ use Illuminate\Database\Eloquent\Model;
 
 class Sections extends Model
 {
-    use HasFactory;
 
     public static function sections() {
         $getSections = Sections::with('categories')->where('status', 1)->get();
         $getSections = json_decode(json_encode($getSections), true);
         return $getSections;
+
     }
 
     public function categories() {

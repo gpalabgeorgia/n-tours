@@ -1,31 +1,37 @@
+<?php
+    use App\Models\Sections;
+    $sections = Sections::sections();
+?>
 <header class="main-header flex">
     <!-- Header Lower -->
     <div id="header">
         <div class="header-top">
             <div class="header-top-wrap flex-two">
+<!--########### საკონტაქტო ინფორმაცია #####################################################-->
                 <div class="header-top-right">
                     <ul class=" flex-three">
                         <li class="flex-three">
                             <i class="fa-regular fa-calendar-check" style="color: rgba(77, 165, 40, 1.00);"></i>
-                            <span>Thursday, Mar 26, 2021</span>
+                            <span id="header-date" class="current-date-style"></span>
                         </li>
                         <li class="flex-three">
                             <i class="fa-solid fa-envelope" style="color: rgba(77, 165, 40, 1.00);"></i>
-                            <span>Info@Webmail.Com</span>
+                            <span>geontours@gmail.com</span>
                         </li>
                         <li class="flex-three">
                             <i class="fa-solid fa-phone" style="color: rgba(77, 165, 40, 1.00);"></i>
-                            <span>684 555-0102 490</span>
+                            <span>(+34) 654 245 975</span>
                         </li>
                     </ul>
                 </div>
+<!--########### ჯავშანი და გამოწერა #######################################################-->
                 <div class="header-top-left flex-two">
                     <a href="contact-us.html" class="booking">
                         <i class="fa-regular fa-calendar-plus" style="color: rgba(77, 165, 40, 1.00);"></i>
-                        <span>Booking Now</span>
+                        <span>დაჯავშნე</span>
                     </a>
                     <div class="follow-social flex-two">
-                        <span>Follow Us :</span>
+                        <span>გამოიწერეთ :</span>
                         <ul class="flex-two">
                             <li>
                                 <a href="#">
@@ -40,11 +46,6 @@
                             <li>
                                 <a href="#">
                                     <i class="fa-brands fa-youtube" style="color: rgba(77, 165, 40, 1.00);"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa-brands fa-linkedin-in" style="color: rgba(77, 165, 40, 1.00);"></i>
                                 </a>
                             </li>
                         </ul>
@@ -72,106 +73,29 @@
                                 <!-- Main Menu -->
                                 <nav class="main-menu show navbar-expand-md">
                                     <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
-                                        <ul class="navigation clearfix">
-                                            <li class="current">
-                                                <a href="index.html">Home</a>
-                                            </li>
-                                            <li class="dropdown2">
-                                                <a href="#">Tour</a>
-                                                <ul>
-                                                    <li>
-                                                        <a href="archieve-tour.html">Archieve tour</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="tour-package-v2.html">Tour left sidebar</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="tour-package-v4.html">Tour package </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="tour-single.html">Tour Single </a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown2">
-                                                <a href="#">Destination</a>
-                                                <ul>
-                                                    <li>
-                                                        <a href="tour-destination-v1.html">Destination
-                                                            V1</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="tour-destination-v2.html">Destination
-                                                            V2</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="tour-destination-v3.html">Destination
-                                                            V3</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="single-destination.html">Destination
-                                                            Single</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown2 ">
-                                                <a href="#">Blog</a>
-                                                <ul>
-                                                    <li>
-                                                        <a href="blog.html">Blog</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="blog-details.html">Blog Detail</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown2">
-                                                <a href="#">Pages</a>
-                                                <ul>
-                                                    <li>
-                                                        <a href="about-us.html">About Us</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="team.html">Team member</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="gallery.html">Gallery</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="terms-condition.html">Terms & Condition</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="help-center.html">Help center</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown2">
-                                                <a href="#">Dashboard</a>
-                                                <ul>
-                                                    <li>
-                                                        <a href="admin/dashboard.html">Dashboard</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="admin/my-booking.html">My booking</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="admin/my-listing.html">My Listing</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="add-tour.html">Add Tour</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="my-favorite.html">My Favorites</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="my-profile.html">My profile</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="contact-us.html">Contact</a>
-                                            </li>
-                                        </ul>
+                                            <ul class="navigation clearfix">
+                                                <li class="current">
+                                                    <a href="index.html">მთავარი</a>
+                                                </li>
+                                                @foreach($sections as $section)
+                                                    @if(count($section['categories'])>0)
+                                                        <li class="dropdown2">
+                                                    <a href="">{{ $section['name'] }}</a>
+                                                    <ul>
+                                                        @foreach($section['categories'] as $category)
+                                                        <li><a href="">{{ $category['category_name'] }}</a></li>
+                                                            @foreach($category['subcategories'] as $subcategory)
+                                                                <li><a href="">{{ $subcategory['category_name'] }}</a></li>
+                                                            @endforeach
+                                                        @endforeach
+                                                    </ul>
+                                                </li>
+                                                    @endif
+                                                @endforeach
+                                                <li>
+                                                    <a href="contact-us.html">კონტაქტი</a>
+                                                </li>
+                                            </ul>
                                     </div>
                                 </nav>
                                 <!-- Main Menu End-->
@@ -180,38 +104,24 @@
                                 <div class="language">
                                     <div class="nice-select" tabindex="0">
                                         <img src="{{ asset('images/front_images/page/language.svg') }}" alt="">
-                                        <span class="current">English</span>
+                                        <span class="current">ენა</span>
                                         <ul class="list">
                                             <li data-value class="option selected">
-                                                <img src="{{ asset('images/front_images/page/language.svg') }}" alt="">English
-
-                                            </li>
+                                                <img src="{{ asset('images/front_images/page/language.svg') }}" alt="">ქართული</li>
                                             <li data-value="Vietnam" class="option">
-                                                <img src="{{ asset('images/front_images/page/language.svg') }}" alt="">Vietnam
-
-                                            </li>
+                                                <img src="{{ asset('images/front_images/page/language.svg') }}" alt="">English</li>
                                             <li data-value="German" class="option">
-                                                <img src="{{ asset('images/front_images/page/language.svg') }}" alt="">German
-
-                                            </li>
+                                                <img src="{{ asset('images/front_images/page/language.svg') }}" alt="">Русский</li>
                                             <li data-value="Russian" class="option">
-                                                <img src="{{ asset('images/front_images/page/language.svg') }}" alt="">Russian
-
-                                            </li>
-                                            <li data-value="Canada" class="option">
-                                                <img src="{{ asset('images/front_images/page/language.svg') }}" alt="">Canada
-
-                                            </li>
+                                                <img src="{{ asset('images/front_images/page/language.svg') }}" alt="">Español</li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="currency">
                                     <div class="nice-select" tabindex="0">
-                                        <span class="current">USD</span>
+                                        <span class="current">ვალუტა</span>
                                         <ul class="list">
-                                            <li data-value class="option selected">USD</li>
-                                            <li data-value="vnd" class="option">VND</li>
-                                            <li data-value="ero" class="option">ERO</li>
+                                            <li data-value class="option selected">EURO</li>
                                         </ul>
                                     </div>
                                 </div>
