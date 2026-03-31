@@ -1,13 +1,18 @@
 @charset "UTF-8";
 
+/* 1. Если библиотеки лежат в этой же папке (front_css) */
 @import "animate.css";
 @import "jquery.fancybox.min.css";
 @import "magnific-popup.css";
 @import "swiper-bundle.min.css";
 @import "nice-select.css";
-@import "../fonts/style.css";
+@import "bootstrap.css";
+
+/* 2. Если шрифты в public/fonts/ (выходим на два уровня вверх) */
+@import "../../fonts/style.css";
+
+/* 3. Внешние ссылки всегда работают */
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Yesteryear&display=swap");
-@import "../css/bootstrap.css";
 /* Header
 -------------------------------------------------------------- */
 .header-top {

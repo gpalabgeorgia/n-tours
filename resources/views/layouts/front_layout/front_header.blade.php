@@ -64,7 +64,7 @@
                             <div class="logo-box">
                                 <div class="logo">
                                     <a href="index.html">
-                                        <img src="/images/logo.png" alt="Logo">
+                                        <img src="{{ asset('images/front_images/logo.png') }}" alt="Logo">
                                     </a>
                                 </div>
                             </div>
@@ -179,27 +179,27 @@
                             <div class="header-account flex align-center">
                                 <div class="language">
                                     <div class="nice-select" tabindex="0">
-                                        <img src="images/page/language.svg" alt="">
+                                        <img src="{{ asset('images/front_images/page/language.svg') }}" alt="">
                                         <span class="current">English</span>
                                         <ul class="list">
                                             <li data-value class="option selected">
-                                                <img src="images/page/language.svg" alt="">English
+                                                <img src="{{ asset('images/front_images/page/language.svg') }}" alt="">English
 
                                             </li>
                                             <li data-value="Vietnam" class="option">
-                                                <img src="images/page/language.svg" alt="">Vietnam
+                                                <img src="{{ asset('images/front_images/page/language.svg') }}" alt="">Vietnam
 
                                             </li>
                                             <li data-value="German" class="option">
-                                                <img src="images/page/language.svg" alt="">German
+                                                <img src="{{ asset('images/front_images/page/language.svg') }}" alt="">German
 
                                             </li>
                                             <li data-value="Russian" class="option">
-                                                <img src="images/page/language.svg" alt="">Russian
+                                                <img src="{{ asset('images/front_images/page/language.svg') }}" alt="">Russian
 
                                             </li>
                                             <li data-value="Canada" class="option">
-                                                <img src="images/page/language.svg" alt="">Canada
+                                                <img src="{{ asset('images/front_images/page/language.svg') }}" alt="">Canada
 
                                             </li>
                                         </ul>
@@ -234,7 +234,7 @@
                                     <ul class="flex align-center">
                                         <li>
                                             <a href="login.html" class="flex-three">
-                                                <img src="images/page/avata.jpg" alt="image">
+                                                <img src="{{ asset('images/front_images/page/avata.jpg') }}" alt="image">
                                             </a>
                                         </li>
                                     </ul>
@@ -244,7 +244,7 @@
                     </div>
                 </div>
             </div>
-            <img src="images/page/fl1.png" alt="" class="fly-ab">
+            <img src="{{ asset('images/front_images/page/fl1.png') }}" alt="" class="fly-ab">
         </div>
     </div>
     <!-- End Header Lower -->
@@ -260,7 +260,7 @@
         <nav class="menu-box">
             <div class="nav-logo">
                 <a href="index.html">
-                    <img src="images/logo2.png" alt="">
+                    <img src="{{ asset('images/front_images/logo2.png') }}" alt="">
                 </a>
             </div>
             <div class="bottom-canvas">

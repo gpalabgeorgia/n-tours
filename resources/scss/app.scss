@@ -1,0 +1,5 @@
+@import 'abstracts/variables'; // Сначала переменные
+@import 'abstracts/mixin';     // Потом миксины
+@import 'component/button';    // Потом компоненты
+@import 'style';               // Остальное
+@import 'responsive';

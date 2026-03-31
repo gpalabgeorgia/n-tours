@@ -591,30 +591,30 @@ var excelStrings = {
 				'<numFmt numFmtId="169" formatCode="#,##0.00;(#,##0.00)"/>'+
 			'</numFmts>'+
 			'<fonts count="5" x14ac:knownFonts="1">'+
-				'<font>'+
+				'<fonts>'+
 					'<sz val="11" />'+
 					'<name val="Calibri" />'+
-				'</font>'+
-				'<font>'+
+				'</fonts>'+
+				'<fonts>'+
 					'<sz val="11" />'+
 					'<name val="Calibri" />'+
 					'<color rgb="FFFFFFFF" />'+
-				'</font>'+
-				'<font>'+
+				'</fonts>'+
+				'<fonts>'+
 					'<sz val="11" />'+
 					'<name val="Calibri" />'+
 					'<b />'+
-				'</font>'+
-				'<font>'+
+				'</fonts>'+
+				'<fonts>'+
 					'<sz val="11" />'+
 					'<name val="Calibri" />'+
 					'<i />'+
-				'</font>'+
-				'<font>'+
+				'</fonts>'+
+				'<fonts>'+
 					'<sz val="11" />'+
 					'<name val="Calibri" />'+
 					'<u />'+
-				'</font>'+
+				'</fonts>'+
 			'</fonts>'+
 			'<fills count="6">'+
 				'<fill>'+
@@ -1181,13 +1181,13 @@ DataTable.ext.buttons.excelHtml5 = {
 			addRow( data.header, rowPos );
 			$('row:last c', rels).attr( 's', '2' ); // bold
 		}
-	
+
 		dataStartRow = rowPos;
 
 		for ( var n=0, ie=data.body.length ; n<ie ; n++ ) {
 			addRow( data.body[n], rowPos );
 		}
-	
+
 		dataEndRow = rowPos;
 
 		if ( config.footer && data.footer ) {

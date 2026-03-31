@@ -1,5 +1,5 @@
 /*!
- * 
+ *
  * Super simple WYSIWYG editor v0.8.20
  * https://summernote.org
  *
@@ -107,7 +107,7 @@ var __webpack_exports__ = {};
       options: {
         help: 'Ajut',
         fullscreen: 'Pantalla sencera',
-        codeview: 'Veure codi font'
+        codeview: 'Veure codi fonts'
       },
       paragraph: {
         paragraph: 'Paràgraf',

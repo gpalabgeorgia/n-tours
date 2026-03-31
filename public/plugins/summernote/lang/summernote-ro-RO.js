@@ -1,5 +1,5 @@
 /*!
- * 
+ *
  * Super simple WYSIWYG editor v0.8.20
  * https://summernote.org
  *
@@ -29,13 +29,13 @@ var __webpack_exports__ = {};
         bold: 'Îngroșat',
         italic: 'Înclinat',
         underline: 'Subliniat',
-        clear: 'Înlătură formatare font',
+        clear: 'Înlătură formatare fonts',
         height: 'Înălțime rând',
         name: 'Familie de fonturi',
         strikethrough: 'Tăiat',
         subscript: 'Indice',
         superscript: 'Exponent',
-        size: 'Dimensiune font'
+        size: 'Dimensiune fonts'
       },
       image: {
         image: 'Imagine',

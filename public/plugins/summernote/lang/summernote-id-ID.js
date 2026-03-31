@@ -1,5 +1,5 @@
 /*!
- * 
+ *
  * Super simple WYSIWYG editor v0.8.20
  * https://summernote.org
  *
@@ -35,7 +35,7 @@ var __webpack_exports__ = {};
         strikethrough: 'Coret',
         subscript: 'Subscript',
         superscript: 'Superscript',
-        size: 'Ukuran font'
+        size: 'Ukuran fonts'
       },
       image: {
         image: 'Gambar',
@@ -122,7 +122,7 @@ var __webpack_exports__ = {};
         recent: 'Warna sekarang',
         more: 'Selengkapnya',
         background: 'Warna latar',
-        foreground: 'Warna font',
+        foreground: 'Warna fonts',
         transparent: 'Transparan',
         setTransparent: 'Atur transparansi',
         reset: 'Atur ulang',

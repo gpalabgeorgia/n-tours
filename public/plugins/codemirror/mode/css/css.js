@@ -335,7 +335,7 @@ CodeMirror.defineMode("css", function(config, parserConfig) {
       return popContext(state);
     }
     if (type == "word") {
-      if ((state.stateArg == "@font-face" && !fontProperties.hasOwnProperty(stream.current().toLowerCase())) ||
+      if ((state.stateArg == "@fonts-face" && !fontProperties.hasOwnProperty(stream.current().toLowerCase())) ||
           (state.stateArg == "@counter-style" && !counterDescriptors.hasOwnProperty(stream.current().toLowerCase())))
         override = "error";
       else
@@ -487,12 +487,12 @@ CodeMirror.defineMode("css", function(config, parserConfig) {
     "drop-initial-value", "elevation", "empty-cells", "fit", "fit-content", "fit-position",
     "flex", "flex-basis", "flex-direction", "flex-flow", "flex-grow",
     "flex-shrink", "flex-wrap", "float", "float-offset", "flow-from", "flow-into",
-    "font", "font-family", "font-feature-settings", "font-kerning",
-    "font-language-override", "font-optical-sizing", "font-size",
-    "font-size-adjust", "font-stretch", "font-style", "font-synthesis",
-    "font-variant", "font-variant-alternates", "font-variant-caps",
-    "font-variant-east-asian", "font-variant-ligatures", "font-variant-numeric",
-    "font-variant-position", "font-variation-settings", "font-weight", "gap",
+    "font", "font-family", "fonts-feature-settings", "fonts-kerning",
+    "fonts-language-override", "fonts-optical-sizing", "font-size",
+    "fonts-size-adjust", "fonts-stretch", "font-style", "fonts-synthesis",
+    "font-variant", "fonts-variant-alternates", "fonts-variant-caps",
+    "fonts-variant-east-asian", "fonts-variant-ligatures", "fonts-variant-numeric",
+    "fonts-variant-position", "fonts-variation-settings", "font-weight", "gap",
     "grid", "grid-area", "grid-auto-columns", "grid-auto-flow", "grid-auto-rows",
     "grid-column", "grid-column-end", "grid-column-gap", "grid-column-start",
     "grid-gap", "grid-row", "grid-row-end", "grid-row-gap", "grid-row-start",
@@ -586,8 +586,8 @@ CodeMirror.defineMode("css", function(config, parserConfig) {
   ], nonStandardPropertyKeywords = keySet(nonStandardPropertyKeywords_);
 
   var fontProperties_ = [
-    "font-display", "font-family", "src", "unicode-range", "font-variant",
-     "font-feature-settings", "font-stretch", "font-weight", "font-style"
+    "fonts-display", "font-family", "src", "unicode-range", "font-variant",
+     "fonts-feature-settings", "fonts-stretch", "font-weight", "font-style"
   ], fontProperties = keySet(fontProperties_);
 
   var counterDescriptors_ = [

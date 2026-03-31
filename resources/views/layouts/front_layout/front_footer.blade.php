@@ -3,7 +3,7 @@
         <div class="footer-main">
             <div class="footer-logo">
                 <div class="logo-footer">
-                    <img src="images/logo2.png" alt="">
+                    <img src="{{ asset('images/front_images/logo2.png') }}" alt="">
                 </div>
                 <p class="des-footer">The world’s first and largest digital market
                     for crypto collectibles and non-fungible
@@ -48,23 +48,23 @@
             <div class="footer-gallery">
                 <h5 class="title">Gallery</h5>
                 <div class="gallery-img">
-                    <a href="images/gallery/gl1.jpg" data-fancybox="gallery">
-                        <img src="images/gallery/gl1.jpg" alt="image gallery">
+                    <a href="{{ asset('images/front_images/gallery/gl1.jpg') }}" data-fancybox="gallery">
+                        <img src="{{ asset('images/front_images/gallery/gl1.jpg') }}" alt="image gallery">
                     </a>
-                    <a href="images/gallery/gl2.jpg" data-fancybox="gallery">
-                        <img src="images/gallery/gl2.jpg" alt="image gallery">
+                    <a href="{{ asset('images/front_images/gallery/gl2.jpg') }}" data-fancybox="gallery">
+                        <img src="{{ asset('images/front_images/gallery/gl2.jpg') }}" alt="image gallery">
                     </a>
-                    <a href="images/gallery/gl3.jpg" data-fancybox="gallery">
-                        <img src="images/gallery/gl3.jpg" alt="image gallery">
+                    <a href="{{ asset('images/front_images/gallery/gl3.jpg') }}" data-fancybox="gallery">
+                        <img src="{{ asset('images/front_images/gallery/gl3.jpg') }}" alt="image gallery">
                     </a>
-                    <a href="images/gallery/gl4.jpg" data-fancybox="gallery">
-                        <img src="images/gallery/gl4.jpg" alt="image gallery">
+                    <a href="{{ asset('images/front_images/gallery/gl4.jpg') }}" data-fancybox="gallery">
+                        <img src="{{ asset('images/front_images/gallery/gl4.jpg') }}" alt="image gallery">
                     </a>
-                    <a href="images/gallery/gl5.jpg" data-fancybox="gallery">
-                        <img src="images/gallery/gl5.jpg" alt="image gallery">
+                    <a href="{{ asset('images/front_images/gallery/gl5.jpg') }}" data-fancybox="gallery">
+                        <img src="{{ asset('images/front_images/gallery/gl5.jpg') }}" alt="image gallery">
                     </a>
-                    <a href="images/gallery/gl6.jpg" data-fancybox="gallery">
-                        <img src="images/gallery/gl6.jpg" alt="image gallery">
+                    <a href="{{ asset('images/front_images/gallery/gl6.jpg') }}" data-fancybox="gallery">
+                        <img src="{{ asset('images/front_images/gallery/gl6.jpg') }}" alt="image gallery">
                     </a>
                 </div>
             </div>

@@ -8,9 +8,9 @@ $(document).ready(function() {
         data: {current_pwd:current_pwd},
         success: function(resp) {
             if(resp=="false") {
-                $("#chkCurentPwd").html("<font color=red>მიმდინარე პაროლი არასწორია</font>");
+                $("#chkCurentPwd").html("<fonts color=red>მიმდინარე პაროლი არასწორია</fonts>");
             }else if(resp="true") {
-                $("#chkCurentPwd").html("<font color=green>მიმდინარე პაროლი სწორია</font>");
+                $("#chkCurentPwd").html("<fonts color=green>მიმდინარე პაროლი სწორია</fonts>");
             }
         },error: function() {
             alert("წარმოიშვა შეცდომა");

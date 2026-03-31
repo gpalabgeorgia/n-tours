@@ -7,9 +7,9 @@
                 <div class="swiper-wrapper">
                     <div class="slider-home1 relative overflow-hidden swiper-slide">
                         <div class="silider-image">
-                            <img src="images/slide/slide1.jpg" alt="Image" class="image-slide">
-                            <img src="images/slide/mask-slide.png" alt="Image" class="mask-slide">
-                            <img src="images/slide/mask-fly.png" alt="Image" class="mask-flane">
+                            <img src="{{ asset('images/front_images/slide/slide1.jpg') }}" alt="Image" class="image-slide">
+                            <img src="{{ asset('images/front_images/slide/mask-slide.png') }}" alt="Image" class="mask-slide">
+                            <img src="{{ asset('images/front_images/slide/mask-fly.png') }}" alt="Image" class="mask-flane">
                             <div class="booking-title tf-anime-rorate">
                                 <p class="booking">Booking</p>
                                 <span></span>
@@ -57,9 +57,9 @@
                     </div>
                     <div class="slider-home1 relative overflow-hidden swiper-slide">
                         <div class="silider-image">
-                            <img src="images/slide/slide1.jpg" alt="Image" class="image-slide">
-                            <img src="images/slide/mask-slide.png" alt="Image" class="mask-slide">
-                            <img src="images/slide/mask-fly.png" alt="Image" class="mask-flane">
+                            <img src="{{ asset('images/front_images/slide/slide1.jpg') }}" alt="Image" class="image-slide">
+                            <img src="{{ asset('images/front_images/slide/mask-slide.png') }}" alt="Image" class="mask-slide">
+                            <img src="{{ asset('images/front_images/slide/mask-fly.png') }}" alt="Image" class="mask-flane">
                             <div class="booking-title tf-anime-rorate">
                                 <p class="booking">Booking</p>
                                 <span></span>
@@ -107,9 +107,9 @@
                     </div>
                     <div class="slider-home1 relative overflow-hidden swiper-slide">
                         <div class="silider-image">
-                            <img src="images/slide/slide1.jpg" alt="Image" class="image-slide">
-                            <img src="images/slide/mask-slide.png" alt="Image" class="mask-slide">
-                            <img src="images/slide/mask-fly.png" alt="Image" class="mask-flane">
+                            <img src="{{ asset('images/front_images/slide/slide1.jpg') }}" alt="Image" class="image-slide">
+                            <img src="{{ asset('images/front_images/slide/mask-slide.png') }}" alt="Image" class="mask-slide">
+                            <img src="{{ asset('images/front_images/slide/mask-fly.png') }}" alt="Image" class="mask-flane">
                             <div class="booking-title tf-anime-rorate">
                                 <p class="booking">Booking</p>
                                 <span></span>
@@ -356,12 +356,12 @@
                 <div class="row pt-35">
                     <div class="col-lg-12 flex">
                         <div class="image-list flex-three">
-                            <img src="images/avata/6.jpg" alt="Image" class="item">
-                            <img src="images/avata/5.jpg" alt="Image" class="item">
-                            <img src="images/avata/4.jpg" alt="Image" class="item">
-                            <img src="images/avata/3.jpg" alt="Image" class="item">
-                            <img src="images/avata/1.jpg" alt="Image" class="item">
-                            <img src="images/avata/2.jpg" alt="Image" class="item">
+                            <img src="{{ asset('images/front_images/avata/6.jpg') }}" alt="Image" class="item">
+                            <img src="{{ asset('images/front_images/avata/5.jpg') }}" alt="Image" class="item">
+                            <img src="{{ asset('images/front_images/avata/4.jpg') }}" alt="Image" class="item">
+                            <img src="{{ asset('images/front_images/avata/3.jpg') }}" alt="Image" class="item">
+                            <img src="{{ asset('images/front_images/avata/1.jpg') }}" alt="Image" class="item">
+                            <img src="{{ asset('images/front_images/avata/2.jpg') }}" alt="Image" class="item">
                             <div class="icon text-white item flex-five">
                                 <i class="icon-uniE914"></i>
                             </div>
@@ -373,14 +373,14 @@
                 <div class="row pt-115">
                     <div class="col-lg-6">
                         <div class="travel-video relative">
-                            <img src="images/about-us/image-video.png" alt="Image" class="image-video">
+                            <img src="{{ asset('images/front_images/about-us/image-video.png') }}" alt="Image" class="image-video">
                             <div class="video-wrap">
                                 <a href="https://www.youtube.com/watch?v=n9LgeoJE4EI" class="widget-icon-video widget-videos flex-five z-index3">
                                     <i class="icon-Polygon-4"></i>
                                 </a>
                             </div>
-                            <img src="images/about-us/vali.png" alt="Image" class="mask-video tf-anime-rorate">
-                            <img src="images/page/enjoy.png" alt="Image" class="mask-enjoy ">
+                            <img src="{{ asset('images/front_images/about-us/vali.png') }}" alt="Image" class="mask-video tf-anime-rorate">
+                            <img src="{{ asset('images/front_images/page/enjoy.png') }}" alt="Image" class="mask-enjoy ">
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -451,10 +451,10 @@
                                 </a>
                                 <div class="profile flex-three">
                                     <div class="image">
-                                        <img src="images/avata/10.jpg" alt="">
+                                        <img src="{{ asset('images/front_images/avata/10.jpg') }}" alt="">
                                     </div>
                                     <div class="content">
-                                        <img src="images/page/name.png" alt="">
+                                        <img src="{{ asset('images/front_images/page/name.png') }}" alt="">
                                         <span class="text-main">Ceo & Founder</span>
                                     </div>
                                 </div>
@@ -535,7 +535,7 @@
                                                                         </span>
                                                         </div>
                                                     </div>
-                                                    <img src="./assets/images/travel-list/1.jpg" alt="Image Listing">
+                                                    <img src="{{ asset('images/front_images/travel-list/1.jpg') }}" alt="Image Listing">
                                                 </a>
                                                 <div class="tour-listing-content">
                                                     <span class="tag-listing">Bestseller</span>
@@ -602,7 +602,7 @@
                                                                         </span>
                                                         </div>
                                                     </div>
-                                                    <img src="images/travel-list/2.jpg" alt="Image Listing">
+                                                    <img src="{{ asset('images/front_images/travel-list/2.jpg') }}" alt="Image Listing">
                                                 </a>
                                                 <div class="tour-listing-content">
                                                     <span class="tag-listing">Trending</span>
@@ -669,7 +669,7 @@
                                                                         </span>
                                                         </div>
                                                     </div>
-                                                    <img src="images/travel-list/3.jpg" alt="Image Listing">
+                                                    <img src="{{ asset('images/front_images/travel-list/3.jpg') }}" alt="Image Listing">
                                                 </a>
                                                 <div class="tour-listing-content">
                                                     <span class="tag-listing">Hot sell</span>
@@ -736,7 +736,7 @@
                                                                         </span>
                                                         </div>
                                                     </div>
-                                                    <img src="images/travel-list/4.jpg" alt="Image Listing">
+                                                    <img src="{{ asset('images/front_images/travel-list/4.jpg') }}" alt="Image Listing">
                                                 </a>
                                                 <div class="tour-listing-content">
                                                     <span class="tag-listing">Bestseller</span>
@@ -817,7 +817,7 @@
                                                                         </span>
                                                         </div>
                                                     </div>
-                                                    <img src="images/travel-list/1.jpg" alt="Image Listing">
+                                                    <img src="{{ asset('images/front_images/travel-list/1.jpg') }}" alt="Image Listing">
                                                 </a>
                                                 <div class="tour-listing-content">
                                                     <span class="tag-listing">Bestseller</span>
@@ -884,7 +884,7 @@
                                                                         </span>
                                                         </div>
                                                     </div>
-                                                    <img src="images/travel-list/2.jpg" alt="Image Listing">
+                                                    <img src="{{ asset('images/front_images/travel-list/2.jpg') }}" alt="Image Listing">
                                                 </a>
                                                 <div class="tour-listing-content">
                                                     <span class="tag-listing">Trending</span>
@@ -951,7 +951,7 @@
                                                                         </span>
                                                         </div>
                                                     </div>
-                                                    <img src="images/travel-list/3.jpg" alt="Image Listing">
+                                                    <img src="{{ asset('images/front_images/travel-list/3.jpg') }}" alt="Image Listing">
                                                 </a>
                                                 <div class="tour-listing-content">
                                                     <span class="tag-listing">Hot sell</span>
@@ -1018,7 +1018,7 @@
                                                                         </span>
                                                         </div>
                                                     </div>
-                                                    <img src="images/travel-list/4.jpg" alt="Image Listing">
+                                                    <img src="{{ asset('images/front_images/travel-list/4.jpg') }}" alt="Image Listing">
                                                 </a>
                                                 <div class="tour-listing-content">
                                                     <span class="tag-listing">Bestseller</span>
@@ -1099,7 +1099,7 @@
                                                                         </span>
                                                         </div>
                                                     </div>
-                                                    <img src="images/travel-list/1.jpg" alt="Image Listing">
+                                                    <img src="{{ asset('images/front_images/travel-list/1.jpg') }}" alt="Image Listing">
                                                 </a>
                                                 <div class="tour-listing-content">
                                                     <span class="tag-listing">Bestseller</span>
@@ -1166,7 +1166,7 @@
                                                                         </span>
                                                         </div>
                                                     </div>
-                                                    <img src="images/travel-list/2.jpg" alt="Image Listing">
+                                                    <img src="{{ asset('images/front_images/travel-list/2.jpg') }}" alt="Image Listing">
                                                 </a>
                                                 <div class="tour-listing-content">
                                                     <span class="tag-listing">Trending</span>
@@ -1300,7 +1300,7 @@
                                                                         </span>
                                                         </div>
                                                     </div>
-                                                    <img src="images/travel-list/4.jpg" alt="Image Listing">
+                                                    <img src="{{ asset('images/front_images/travel-list/4.jpg') }}" alt="Image Listing">
                                                 </a>
                                                 <div class="tour-listing-content">
                                                     <span class="tag-listing">Bestseller</span>
@@ -1381,7 +1381,7 @@
                                                                         </span>
                                                         </div>
                                                     </div>
-                                                    <img src="images/travel-list/1.jpg" alt="Image Listing">
+                                                    <img src="{{ asset('images/front_images/travel-list/1.jpg') }}" alt="Image Listing">
                                                 </a>
                                                 <div class="tour-listing-content">
                                                     <span class="tag-listing">Bestseller</span>
@@ -1448,7 +1448,7 @@
                                                                         </span>
                                                         </div>
                                                     </div>
-                                                    <img src="images/travel-list/2.jpg" alt="Image Listing">
+                                                    <img src="{{ asset('images/front_images/travel-list/2.jpg') }}" alt="Image Listing">
                                                 </a>
                                                 <div class="tour-listing-content">
                                                     <span class="tag-listing">Trending</span>
@@ -1515,7 +1515,7 @@
                                                                         </span>
                                                         </div>
                                                     </div>
-                                                    <img src="images/travel-list/3.jpg" alt="Image Listing">
+                                                    <img src="{{ asset('images/front_images/travel-list/3.jpg') }}" alt="Image Listing">
                                                 </a>
                                                 <div class="tour-listing-content">
                                                     <span class="tag-listing">Hot sell</span>
@@ -1582,7 +1582,7 @@
                                                                         </span>
                                                         </div>
                                                     </div>
-                                                    <img src="images/travel-list/4.jpg" alt="Image Listing">
+                                                    <img src="{{ asset('images/front_images/travel-list/4.jpg') }}" alt="Image Listing">
                                                 </a>
                                                 <div class="tour-listing-content">
                                                     <span class="tag-listing">Bestseller</span>
@@ -1663,7 +1663,7 @@
                                                                         </span>
                                                         </div>
                                                     </div>
-                                                    <img src="images/travel-list/1.jpg" alt="Image Listing">
+                                                    <img src="{{ asset('images/front_images/travel-list/1.jpg') }}" alt="Image Listing">
                                                 </a>
                                                 <div class="tour-listing-content">
                                                     <span class="tag-listing">Bestseller</span>
@@ -1730,7 +1730,7 @@
                                                                         </span>
                                                         </div>
                                                     </div>
-                                                    <img src="images/travel-list/2.jpg" alt="Image Listing">
+                                                    <img src="{{ asset('images/front_images/travel-list/2.jpg') }}" alt="Image Listing">
                                                 </a>
                                                 <div class="tour-listing-content">
                                                     <span class="tag-listing">Trending</span>
@@ -1797,7 +1797,7 @@
                                                                         </span>
                                                         </div>
                                                     </div>
-                                                    <img src="images/travel-list/3.jpg" alt="Image Listing">
+                                                    <img src="{{ asset('images/front_images/travel-list/3.jpg') }}" alt="Image Listing">
                                                 </a>
                                                 <div class="tour-listing-content">
                                                     <span class="tag-listing">Hot sell</span>
@@ -1864,7 +1864,7 @@
                                                                         </span>
                                                         </div>
                                                     </div>
-                                                    <img src="images/travel-list/4.jpg" alt="Image Listing">
+                                                    <img src="{{ asset('images/front_images/travel-list/4.jpg') }}" alt="Image Listing">
                                                 </a>
                                                 <div class="tour-listing-content">
                                                     <span class="tag-listing">Bestseller</span>
@@ -1936,8 +1936,8 @@
         <!-- Widget Tourpackage -->
         <!-- Widget activities -->
         <section class="relative tf-widget-activities pd-main overflow-hidden">
-            <img src="images/page/mask-activiti.png" alt="image" class="mask-top">
-            <img src="images/page/mask-print-2.png" alt="image" class="mask-bottom">
+            <img src="{{ asset('images/front_images/page/mask-activiti.png') }}" alt="image" class="mask-top">
+            <img src="{{ asset('images/front_images/page/mask-print-2.png" alt="image') }}" class="mask-bottom">
             <div class="tf-container">
                 <div class="row z-index3 relative">
                     <div class="col-lg-12 mb-60">
@@ -2006,7 +2006,7 @@
                             <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
                                 <div class="tabs-activities-content flex">
                                     <div class="activities-image">
-                                        <img src="images/page/1.jpg" alt="Image">
+                                        <img src="{{ asset('images/front_images/page/1.jpg') }}" alt="Image">
                                     </div>
                                     <div class="activities-content relative">
                                         <span class="sub-title text-white">Welcome to our Print</span>
@@ -2032,14 +2032,14 @@
                                             </a>
                                             <a href="#" class="text-white get-start">Get Started Today</a>
                                         </div>
-                                        <img src="images/page/mask-tap.png" alt="image" class="mask-tab">
+                                        <img src="{{ asset('images/front_images/page/mask-tap.png') }}" alt="image" class="mask-tab">
                                     </div>
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
                                 <div class="tabs-activities-content flex">
                                     <div class="activities-image">
-                                        <img src="images/page/1.jpg" alt="Image">
+                                        <img src="{{ asset('images/front_images/page/1.jpg') }}" alt="Image">
                                     </div>
                                     <div class="activities-content relative">
                                         <span class="sub-title text-white">Welcome to our Print</span>
@@ -2065,14 +2065,14 @@
                                             </a>
                                             <a href="#" class="text-white get-start">Get Started Today</a>
                                         </div>
-                                        <img src="images/page/mask-tap.png" alt="image" class="mask-tab">
+                                        <img src="{{ asset('images/front_images/page/mask-tap.png') }}" alt="image" class="mask-tab">
                                     </div>
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
                                 <div class="tabs-activities-content flex">
                                     <div class="activities-image">
-                                        <img src="images/page/1.jpg" alt="Image">
+                                        <img src="{{ asset('images/front_images/page/1.jpg') }}" alt="Image">
                                     </div>
                                     <div class="activities-content relative">
                                         <span class="sub-title text-white">Welcome to our Print</span>
@@ -2098,14 +2098,14 @@
                                             </a>
                                             <a href="#" class="text-white get-start">Get Started Today</a>
                                         </div>
-                                        <img src="images/page/mask-tap.png" alt="image" class="mask-tab">
+                                        <img src="{{ asset('images/front_images/page/mask-tap.png') }}" alt="image" class="mask-tab">
                                     </div>
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="ab-tab-pane" role="tabpanel" aria-labelledby="ab-tab" tabindex="0">
                                 <div class="tabs-activities-content flex">
                                     <div class="activities-image">
-                                        <img src="images/page/1.jpg" alt="Image">
+                                        <img src="{{ asset('images/front_images/page/1.jpg') }}" alt="Image">
                                     </div>
                                     <div class="activities-content relative">
                                         <span class="sub-title text-white">Welcome to our Print</span>
@@ -2131,14 +2131,14 @@
                                             </a>
                                             <a href="#" class="text-white get-start">Get Started Today</a>
                                         </div>
-                                        <img src="images/page/mask-tap.png" alt="image" class="mask-tab">
+                                        <img src="{{ asset('images/front_images/page/mask-tap.png') }}" alt="image" class="mask-tab">
                                     </div>
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="cd-tab-pane" role="tabpanel" aria-labelledby="cd-tab" tabindex="0">
                                 <div class="tabs-activities-content flex">
                                     <div class="activities-image">
-                                        <img src="images/page/1.jpg" alt="Image">
+                                        <img src="{{ asset('images/front_images/page/1.jpg') }}" alt="Image">
                                     </div>
                                     <div class="activities-content relative">
                                         <span class="sub-title text-white">Welcome to our Print</span>
@@ -2164,7 +2164,7 @@
                                             </a>
                                             <a href="#" class="text-white get-start">Get Started Today</a>
                                         </div>
-                                        <img src="images/page/mask-tap.png" alt="image" class="mask-tab">
+                                        <img src="{{ asset('images/front_images/page/mask-tap.png') }}" alt="image" class="mask-tab">
                                     </div>
                                 </div>
                             </div>
@@ -2176,7 +2176,7 @@
         <!-- Widget activities -->
         <!-- Widget Offer Package -->
         <section class="offer-package pd-main bg-1 relative">
-            <img src="images/page/feature.jpg" alt="image" class="feature-ofer">
+            <img src="{{ asset('images/front_images/page/feature.jpg') }}" alt="image" class="feature-ofer">
             <div class="tf-container">
                 <div class="row align-center z-index3 relative">
                     <div class="col-lg-5">
@@ -2244,7 +2244,7 @@
                                                                     </span>
                                                     </div>
                                                 </div>
-                                                <img src="images/travel-list/15.jpg" alt="Image Listing">
+                                                <img src="{{ asset('images/front_images/travel-list/15.jpg') }}" alt="Image Listing">
                                             </a>
                                             <div class="tour-listing-content">
                                                 <span class="tag-listing">Bestseller</span>
@@ -2311,7 +2311,7 @@
                                                                     </span>
                                                     </div>
                                                 </div>
-                                                <img src="images/travel-list/16.jpg" alt="Image Listing">
+                                                <img src="{{ asset('images/front_images/travel-list/16.jpg') }}" alt="Image Listing">
                                             </a>
                                             <div class="tour-listing-content">
                                                 <span class="tag-listing">Bestseller</span>
@@ -2378,7 +2378,7 @@
                                                                     </span>
                                                     </div>
                                                 </div>
-                                                <img src="images/travel-list/17.jpg" alt="Image Listing">
+                                                <img src="{{ asset('images/front_images/travel-list/17.jpg') }}" alt="Image Listing">
                                             </a>
                                             <div class="tour-listing-content">
                                                 <span class="tag-listing">Bestseller</span>
@@ -2445,7 +2445,7 @@
                                                                     </span>
                                                     </div>
                                                 </div>
-                                                <img src="images/travel-list/18.jpg" alt="Image Listing">
+                                                <img src="{{ asset('images/front_images/travel-list/18.jpg') }}" alt="Image Listing">
                                             </a>
                                             <div class="tour-listing-content">
                                                 <span class="tag-listing">Bestseller</span>
@@ -2512,7 +2512,7 @@
                                                                     </span>
                                                     </div>
                                                 </div>
-                                                <img src="images/travel-list/15.jpg" alt="Image Listing">
+                                                <img src="{{ asset('images/front_images/travel-list/15.jpg') }}" alt="Image Listing">
                                             </a>
                                             <div class="tour-listing-content">
                                                 <span class="tag-listing">Bestseller</span>
@@ -2579,7 +2579,7 @@
                                                                     </span>
                                                     </div>
                                                 </div>
-                                                <img src="images/travel-list/16.jpg" alt="Image Listing">
+                                                <img src="{{ asset('images/front_images/travel-list/16.jpg') }}" alt="Image Listing">
                                             </a>
                                             <div class="tour-listing-content">
                                                 <span class="tag-listing">Bestseller</span>
@@ -2640,8 +2640,8 @@
         <!-- Widget Offer Package -->
         <!-- Widget Counter -->
         <section class="widget-counter relative">
-            <img src="images/page/couter-top.png" alt="image" class="counter-top">
-            <img src="images/page/counter-bottom.png" alt="image" class="counter-bottom">
+            <img src="{{ asset('images/front_images/page/couter-top.png') }}" alt="image" class="counter-top">
+            <img src="{{ asset('images/front_images/page/counter-bottom.png" alt="image') }}" class="counter-bottom">
             <div class="tf-container">
                 <div class="row mb-50">
                     <div class="col-lg-9 flex-three cta-wrap">
@@ -2767,7 +2767,7 @@
                     <div class="tf-widget-destination wow fadeInUp animated " data-wow-delay="0.1s">
                         <a href="single-destination.html" class="destination-imgae">
                             <span class="tour">3 tours</span>
-                            <img src="images/destination/list.jpg" alt="">
+                            <img src="{{ asset('images/front_images/destination/list.jpg') }}" alt="">
                         </a>
                         <div class="destination-content">
                             <span class="nation">Switzerland</span>
@@ -2784,7 +2784,7 @@
                     <div class="tf-widget-destination wow fadeInUp animated " data-wow-delay="0.2s">
                         <a href="single-destination.html" class="destination-imgae">
                             <span class="tour">7 tours</span>
-                            <img src="./assets/images/destination/list1.jpg" alt="">
+                            <img src="{{ asset('images/front_images/destination/list1.jpg') }}" alt="">
                         </a>
                         <div class="destination-content">
                             <span class="nation">Thailand</span>
@@ -2801,7 +2801,7 @@
                     <div class="tf-widget-destination wow fadeInUp animated " data-wow-delay="0.3s">
                         <a href="single-destination.html" class="destination-imgae">
                             <span class="tour">9 tours</span>
-                            <img src="images/destination/list2.jpg" alt="">
+                            <img src="{{ asset('images/front_images/destination/list2.jpg') }}" alt="">
                         </a>
                         <div class="destination-content">
                             <span class="nation">united kingdom</span>
@@ -2882,22 +2882,22 @@
                         <div class="swiper brand-logo overflow-hidden">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="images/page/brand-logo.png" alt="">
+                                    <img src="{{ asset('images/front_images/page/brand-logo.png') }}" alt="">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="images/page/brand-logo.png" alt="">
+                                    <img src="{{ asset('images/front_images/page/brand-logo.png') }}" alt="">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="images/page/brand-logo.png" alt="">
+                                    <img src="{{ asset('images/front_images/page/brand-logo.png') }}" alt="">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="images/page/brand-logo.png" alt="">
+                                    <img src="{{ asset('images/front_images/page/brand-logo.png') }}" alt="">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="images/page/brand-logo.png" alt="">
+                                    <img src="{{ asset('images/front_images/page/brand-logo.png') }}" alt="">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="images/page/brand-logo.png" alt="">
+                                    <img src="{{ asset('images/front_images/page/brand-logo.png') }}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -2947,7 +2947,7 @@
                                         <div class="col-6 col-sm-6 col-lg-3">
                                             <div class="tf-adventure flex-three mb-43">
                                                 <a href="tour-single.html" class="adventure-image">
-                                                    <img src="images/tour/tour1.jpg" alt="">
+                                                    <img src="{{ asset('images/front_images/tour/tour1.jpg') }}" alt="">
                                                 </a>
                                                 <div class="adventure-image">
                                                     <span class="tour-ad">(3 Tour)</span>
@@ -2961,7 +2961,7 @@
                                         <div class="col-6 col-sm-6 col-lg-3">
                                             <div class="tf-adventure flex-three mb-43">
                                                 <a href="tour-single.html" class="adventure-image">
-                                                    <img src="./assets/images/tour/tour2.jpg" alt="">
+                                                    <img src="{{ asset('images/front_images/tour/tour2.jpg') }}" alt="">
                                                 </a>
                                                 <div class="adventure-image">
                                                     <span class="tour-ad">(3 Tour)</span>
@@ -2975,7 +2975,7 @@
                                         <div class="col-6 col-sm-6 col-lg-3">
                                             <div class="tf-adventure flex-three mb-43">
                                                 <a href="tour-single.html" class="adventure-image">
-                                                    <img src="images/tour/tour3.jpg" alt="">
+                                                    <img src="{{ asset('images/front_images/tour/tour3.jpg') }}" alt="">
                                                 </a>
                                                 <div class="adventure-image">
                                                     <span class="tour-ad">(3 Tour)</span>
@@ -2989,7 +2989,7 @@
                                         <div class="col-6 col-sm-6 col-lg-3">
                                             <div class="tf-adventure flex-three mb-43">
                                                 <a href="tour-single.html" class="adventure-image">
-                                                    <img src="images/tour/tour4.jpg" alt="">
+                                                    <img src="{{ asset('images/front_images/tour/tour4.jpg') }}" alt="">
                                                 </a>
                                                 <div class="adventure-image">
                                                     <span class="tour-ad">(3 Tour)</span>
@@ -3003,7 +3003,7 @@
                                         <div class="col-6 col-sm-6 col-lg-3">
                                             <div class="tf-adventure flex-three mb-43">
                                                 <a href="tour-single.html" class="adventure-image">
-                                                    <img src="images/tour/tour5.jpg" alt="">
+                                                    <img src="{{ asset('images/front_images/tour/tour5.jpg') }}" alt="">
                                                 </a>
                                                 <div class="adventure-image">
                                                     <span class="tour-ad">(3 Tour)</span>
@@ -3017,7 +3017,7 @@
                                         <div class="col-6 col-sm-6 col-lg-3">
                                             <div class="tf-adventure flex-three mb-43">
                                                 <a href="tour-single.html" class="adventure-image">
-                                                    <img src="images/tour/tour6.jpg" alt="">
+                                                    <img src="{{ asset('images/front_images/tour/tour6.jpg') }}" alt="">
                                                 </a>
                                                 <div class="adventure-image">
                                                     <span class="tour-ad">(3 Tour)</span>
@@ -3031,7 +3031,7 @@
                                         <div class="col-6 col-sm-6 col-lg-3">
                                             <div class="tf-adventure flex-three mb-43">
                                                 <a href="tour-single.html" class="adventure-image">
-                                                    <img src="images/tour/tour7.jpg" alt="">
+                                                    <img src="{{ asset('images/front_images/tour/tour7.jpg') }}" alt="">
                                                 </a>
                                                 <div class="adventure-image">
                                                     <span class="tour-ad">(3 Tour)</span>
@@ -3045,7 +3045,7 @@
                                         <div class="col-6 col-sm-6 col-lg-3">
                                             <div class="tf-adventure flex-three mb-43">
                                                 <a href="tour-single.html" class="adventure-image">
-                                                    <img src="images/tour/tour8.jpg" alt="">
+                                                    <img src="{{ asset('images/front_images/tour/tour8.jpg') }}" alt="">
                                                 </a>
                                                 <div class="adventure-image">
                                                     <span class="tour-ad">(3 Tour)</span>
@@ -3063,7 +3063,7 @@
                                         <div class="col-6 col-sm-6 col-lg-3">
                                             <div class="tf-adventure flex-three mb-43">
                                                 <a href="tour-single.html" class="adventure-image">
-                                                    <img src="images/tour/tour1.jpg" alt="">
+                                                    <img src="{{ asset('images/front_images/tour/tour1.jpg') }}" alt="">
                                                 </a>
                                                 <div class="adventure-image">
                                                     <span class="tour-ad">(3 Tour)</span>
@@ -3077,7 +3077,7 @@
                                         <div class="col-6 col-sm-6 col-lg-3">
                                             <div class="tf-adventure flex-three mb-43">
                                                 <a href="tour-single.html" class="adventure-image">
-                                                    <img src="images/tour/tour2.jpg" alt="">
+                                                    <img src="{{ asset('images/front_images/tour/tour2.jpg') }}" alt="">
                                                 </a>
                                                 <div class="adventure-image">
                                                     <span class="tour-ad">(3 Tour)</span>
@@ -3091,7 +3091,7 @@
                                         <div class="col-6 col-sm-6 col-lg-3">
                                             <div class="tf-adventure flex-three mb-43">
                                                 <a href="tour-single.html" class="adventure-image">
-                                                    <img src="images/tour/tour3.jpg" alt="">
+                                                    <img src="{{ asset('images/front_images/tour/tour3.jpg') }}" alt="">
                                                 </a>
                                                 <div class="adventure-image">
                                                     <span class="tour-ad">(3 Tour)</span>
@@ -3105,7 +3105,7 @@
                                         <div class="col-6 col-sm-6 col-lg-3">
                                             <div class="tf-adventure flex-three mb-43">
                                                 <a href="tour-single.html" class="adventure-image">
-                                                    <img src="images/tour/tour4.jpg" alt="">
+                                                    <img src="{{ asset('images/front_images/tour/tour4.jpg') }}" alt="">
                                                 </a>
                                                 <div class="adventure-image">
                                                     <span class="tour-ad">(3 Tour)</span>
@@ -3119,7 +3119,7 @@
                                         <div class="col-6 col-sm-6 col-lg-3">
                                             <div class="tf-adventure flex-three mb-43">
                                                 <a href="tour-single.html" class="adventure-image">
-                                                    <img src="images/tour/tour5.jpg" alt="">
+                                                    <img src="{{ asset('images/front_images/tour/tour5.jpg') }}" alt="">
                                                 </a>
                                                 <div class="adventure-image">
                                                     <span class="tour-ad">(3 Tour)</span>
@@ -3133,7 +3133,7 @@
                                         <div class="col-6 col-sm-6 col-lg-3">
                                             <div class="tf-adventure flex-three mb-43">
                                                 <a href="tour-single.html" class="adventure-image">
-                                                    <img src="images/tour/tour6.jpg" alt="">
+                                                    <img src="{{ asset('images/front_images/tour/tour6.jpg') }}" alt="">
                                                 </a>
                                                 <div class="adventure-image">
                                                     <span class="tour-ad">(3 Tour)</span>
@@ -3147,7 +3147,7 @@
                                         <div class="col-6 col-sm-6 col-lg-3">
                                             <div class="tf-adventure flex-three mb-43">
                                                 <a href="tour-single.html" class="adventure-image">
-                                                    <img src="images/tour/tour7.jpg" alt="">
+                                                    <img src="{{ asset('images/front_images/tour/tour7.jpg') }}" alt="">
                                                 </a>
                                                 <div class="adventure-image">
                                                     <span class="tour-ad">(3 Tour)</span>
@@ -3161,7 +3161,7 @@
                                         <div class="col-6 col-sm-6 col-lg-3">
                                             <div class="tf-adventure flex-three mb-43">
                                                 <a href="tour-single.html" class="adventure-image">
-                                                    <img src="images/tour/tour8.jpg" alt="">
+                                                    <img src="{{ asset('images/front_images/tour/tour8.jpg') }}" alt="">
                                                 </a>
                                                 <div class="adventure-image">
                                                     <span class="tour-ad">(3 Tour)</span>
@@ -3179,7 +3179,7 @@
                                         <div class="col-6 col-sm-6 col-lg-3">
                                             <div class="tf-adventure flex-three mb-43">
                                                 <a href="tour-single.html" class="adventure-image">
-                                                    <img src="images/tour/tour1.jpg" alt="">
+                                                    <img src="{{ asset('images/front_images/tour/tour1.jpg') }}" alt="">
                                                 </a>
                                                 <div class="adventure-image">
                                                     <span class="tour-ad">(3 Tour)</span>
@@ -3193,7 +3193,7 @@
                                         <div class="col-6 col-sm-6 col-lg-3">
                                             <div class="tf-adventure flex-three mb-43">
                                                 <a href="tour-single.html" class="adventure-image">
-                                                    <img src="images/tour/tour2.jpg" alt="">
+                                                    <img src="{{ asset('images/front_images/tour/tour2.jpg') }}" alt="">
                                                 </a>
                                                 <div class="adventure-image">
                                                     <span class="tour-ad">(3 Tour)</span>
@@ -3207,7 +3207,7 @@
                                         <div class="col-6 col-sm-6 col-lg-3">
                                             <div class="tf-adventure flex-three mb-43">
                                                 <a href="tour-single.html" class="adventure-image">
-                                                    <img src="images/tour/tour3.jpg" alt="">
+                                                    <img src="{{ asset('images/front_images/tour/tour3.jpg') }}" alt="">
                                                 </a>
                                                 <div class="adventure-image">
                                                     <span class="tour-ad">(3 Tour)</span>
@@ -3221,7 +3221,7 @@
                                         <div class="col-6 col-sm-6 col-lg-3">
                                             <div class="tf-adventure flex-three mb-43">
                                                 <a href="tour-single.html" class="adventure-image">
-                                                    <img src="images/tour/tour4.jpg" alt="">
+                                                    <img src="{{ asset('images/front_images/tour/tour4.jpg') }}" alt="">
                                                 </a>
                                                 <div class="adventure-image">
                                                     <span class="tour-ad">(3 Tour)</span>
@@ -3235,7 +3235,7 @@
                                         <div class="col-6 col-sm-6 col-lg-3">
                                             <div class="tf-adventure flex-three mb-43">
                                                 <a href="tour-single.html" class="adventure-image">
-                                                    <img src="images/tour/tour5.jpg" alt="">
+                                                    <img src="{{ asset('images/front_images/tour/tour5.jpg') }}" alt="">
                                                 </a>
                                                 <div class="adventure-image">
                                                     <span class="tour-ad">(3 Tour)</span>
@@ -3249,7 +3249,7 @@
                                         <div class="col-6 col-sm-6 col-lg-3">
                                             <div class="tf-adventure flex-three mb-43">
                                                 <a href="tour-single.html" class="adventure-image">
-                                                    <img src="images/tour/tour6.jpg" alt="">
+                                                    <img src="{{ asset('images/front_images/tour/tour6.jpg') }}" alt="">
                                                 </a>
                                                 <div class="adventure-image">
                                                     <span class="tour-ad">(3 Tour)</span>
@@ -3263,7 +3263,7 @@
                                         <div class="col-6 col-sm-6 col-lg-3">
                                             <div class="tf-adventure flex-three mb-43">
                                                 <a href="tour-single.html" class="adventure-image">
-                                                    <img src="images/tour/tour7.jpg" alt="">
+                                                    <img src="{{ asset('images/front_images/tour/tour7.jpg') }}" alt="">
                                                 </a>
                                                 <div class="adventure-image">
                                                     <span class="tour-ad">(3 Tour)</span>
@@ -3277,7 +3277,7 @@
                                         <div class="col-6 col-sm-6 col-lg-3">
                                             <div class="tf-adventure flex-three mb-43">
                                                 <a href="tour-single.html" class="adventure-image">
-                                                    <img src="images/tour/tour8.jpg" alt="">
+                                                    <img src="{{ asset('images/front_images/tour/tour8.jpg') }}" alt="">
                                                 </a>
                                                 <div class="adventure-image">
                                                     <span class="tour-ad">(3 Tour)</span>
@@ -3295,7 +3295,7 @@
                                         <div class="col-6 col-sm-6 col-lg-3">
                                             <div class="tf-adventure flex-three mb-43">
                                                 <a href="tour-single.html" class="adventure-image">
-                                                    <img src="images/tour/tour1.jpg" alt="">
+                                                    <img src="{{ asset('images/front_images/tour/tour1.jpg') }}" alt="">
                                                 </a>
                                                 <div class="adventure-image">
                                                     <span class="tour-ad">(3 Tour)</span>
@@ -3309,7 +3309,7 @@
                                         <div class="col-6 col-sm-6 col-lg-3">
                                             <div class="tf-adventure flex-three mb-43">
                                                 <a href="tour-single.html" class="adventure-image">
-                                                    <img src="images/tour/tour2.jpg" alt="">
+                                                    <img src="{{ asset('images/front_images/tour/tour2.jpg') }}" alt="">
                                                 </a>
                                                 <div class="adventure-image">
                                                     <span class="tour-ad">(3 Tour)</span>
@@ -3323,7 +3323,7 @@
                                         <div class="col-6 col-sm-6 col-lg-3">
                                             <div class="tf-adventure flex-three mb-43">
                                                 <a href="tour-single.html" class="adventure-image">
-                                                    <img src="images/tour/tour3.jpg" alt="">
+                                                    <img src="{{ asset('images/front_images/tour/tour3.jpg') }}" alt="">
                                                 </a>
                                                 <div class="adventure-image">
                                                     <span class="tour-ad">(3 Tour)</span>
@@ -3337,7 +3337,7 @@
                                         <div class="col-6 col-sm-6 col-lg-3">
                                             <div class="tf-adventure flex-three mb-43">
                                                 <a href="tour-single.html" class="adventure-image">
-                                                    <img src="images/tour/tour4.jpg" alt="">
+                                                    <img src="{{ asset('images/front_images/tour/tour4.jpg') }}" alt="">
                                                 </a>
                                                 <div class="adventure-image">
                                                     <span class="tour-ad">(3 Tour)</span>
@@ -3351,7 +3351,7 @@
                                         <div class="col-6 col-sm-6 col-lg-3">
                                             <div class="tf-adventure flex-three mb-43">
                                                 <a href="tour-single.html" class="adventure-image">
-                                                    <img src="images/tour/tour5.jpg" alt="">
+                                                    <img src="{{ asset('images/front_images/tour/tour5.jpg') }}" alt="">
                                                 </a>
                                                 <div class="adventure-image">
                                                     <span class="tour-ad">(3 Tour)</span>
@@ -3365,7 +3365,7 @@
                                         <div class="col-6 col-sm-6 col-lg-3">
                                             <div class="tf-adventure flex-three mb-43">
                                                 <a href="tour-single.html" class="adventure-image">
-                                                    <img src="images/tour/tour6.jpg" alt="">
+                                                    <img src="{{ asset('images/front_images/tour/tour6.jpg') }}" alt="">
                                                 </a>
                                                 <div class="adventure-image">
                                                     <span class="tour-ad">(3 Tour)</span>
@@ -3379,7 +3379,7 @@
                                         <div class="col-6 col-sm-6 col-lg-3">
                                             <div class="tf-adventure flex-three mb-43">
                                                 <a href="tour-single.html" class="adventure-image">
-                                                    <img src="images/tour/tour7.jpg" alt="">
+                                                    <img src="{{ asset('images/front_images/tour/tour7.jpg') }}" alt="">
                                                 </a>
                                                 <div class="adventure-image">
                                                     <span class="tour-ad">(3 Tour)</span>
@@ -3393,7 +3393,7 @@
                                         <div class="col-6 col-sm-6 col-lg-3">
                                             <div class="tf-adventure flex-three mb-43">
                                                 <a href="tour-single.html" class="adventure-image">
-                                                    <img src="images/tour/tour8.jpg" alt="">
+                                                    <img src="{{ asset('images/front_images/tour/tour8.jpg') }}" alt="">
                                                 </a>
                                                 <div class="adventure-image">
                                                     <span class="tour-ad">(3 Tour)</span>
@@ -3419,10 +3419,10 @@
                 <div class="row">
                     <div class="col-md-5 relative">
                         <div class="image-box-tesimonial box-testimonial1 wow fadeInLeft animated " data-wow-delay="0.1s">
-                            <img src="images/page/testimonial1.jpg" alt="">
+                            <img src="{{ asset('images/front_images/page/testimonial1.jpg') }}" alt="">
                         </div>
                         <div class="image-box-tesimonial box-testimonial2 wow fadeInUp animated " data-wow-delay="0.3s">
-                            <img src="images/page/testimonial2.jpg" alt="">
+                            <img src="{{ asset('images/front_images/page/testimonial2.jpg') }}" alt="">
                         </div>
                     </div>
                     <div class="col-md-7">
@@ -3485,13 +3485,13 @@
                             <div class="swiper testimonial-image">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide avata">
-                                        <img src="images/avata/9.jpg" alt="Image Testimonial">
+                                        <img src="{{ asset('images/front_images/avata/9.jpg') }}" alt="Image Testimonial">
                                     </div>
                                     <div class="swiper-slide avata">
-                                        <img src="images/avata/7.jpg" alt="Image Testimonial">
+                                        <img src="{{ asset('images/front_images/avata/7.jpg') }}" alt="Image Testimonial">
                                     </div>
                                     <div class="swiper-slide avata">
-                                        <img src="images/avata/8.jpg" alt="Image Testimonial">
+                                        <img src="{{ asset('images/front_images/avata/8.jpg') }}" alt="Image Testimonial">
                                     </div>
                                 </div>
                             </div>
@@ -3525,11 +3525,11 @@
                                 <br>
                             </address>
                         </div>
-                        <img src="images/page/vector2.png" alt="image" class="mask-icon-banner">
+                        <img src="{{ asset('images/front_images/page/vector2.png') }}" alt="image" class="mask-icon-banner">
                     </div>
                     <div class="col-lg-5">
                         <div class="image-banner-contact">
-                            <img src="images/page/ewewe1.png" alt="">
+                            <img src="{{ asset('images/front_images/page/ewewe1.png') }}" alt="">
                         </div>
                     </div>
                 </div>
@@ -3555,7 +3555,7 @@
                     <div class="col-md-4 wow fadeInUp animated " data-wow-delay="0.1s">
                         <div class="tf-widget-blog blog-style">
                             <a href="blog-details.html" class="blog-image">
-                                <img src="images/blog/bl1.jpg" alt="">
+                                <img src="{{ asset('images/front_images/blog/bl1.jpg') }}" alt="">
                                 <div class="category-blog">
                                     <i class="icon-Group-8"></i>
                                     <span>Traveling</span>
@@ -3592,7 +3592,7 @@
                     <div class="col-md-4 wow fadeInUp animated " data-wow-delay="0.2s">
                         <div class="tf-widget-blog blog-style">
                             <a href="blog-details.html" class="blog-image">
-                                <img src="images/blog/bl2.jpg" alt="">
+                                <img src="{{ asset('images/front_images/blog/bl2.jpg') }}" alt="">
                                 <div class="category-blog">
                                     <i class="icon-Group-8"></i>
                                     <span>Business</span>
@@ -3629,7 +3629,7 @@
                     <div class="col-md-4 wow fadeInUp animated " data-wow-delay="0.3s">
                         <div class="tf-widget-blog blog-style">
                             <a href="blog-details.html" class="blog-image">
-                                <img src="images/blog/bl3.jpg" alt="">
+                                <img src="{{ asset('images/front_images/blog/bl3.jpg') }}" alt="">
                                 <div class="category-blog">
                                     <i class="icon-Group-8"></i>
                                     <span>Cavesse</span>
@@ -3672,14 +3672,14 @@
                 <div class="callt-to-action flex-two">
                     <div class="callt-to-action-content flex-three">
                         <div class="image">
-                            <img src="images/page/ready.png" alt="Image">
+                            <img src="{{ asset('images/front_images/page/ready.png') }}" alt="Image">
                         </div>
                         <div class="content">
                             <h2 class="title-call">Ready to adventure and enjoy natural</h2>
                             <p class="des">Lorem ipsum dolor sit amet, consectetur notted adipisicin</p>
                         </div>
                     </div>
-                    <img src="images/page/vector4.png" alt="" class="shape-ab">
+                    <img src="{{ asset('images/front_images/page/vector4.png') }}" alt="" class="shape-ab">
                     <div class="callt-to-action-button">
                         <a href="#" class="get-call">Let,s get started</a>
                     </div>
