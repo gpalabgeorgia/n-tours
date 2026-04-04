@@ -64,8 +64,8 @@
                             </div>
                             <div class="logo-box">
                                 <div class="logo">
-                                    <a href="index.html">
-                                        <img src="{{ asset('images/front_images/logo.png') }}" alt="Logo">
+                                    <a href="{{ url('/') }}">
+                                        <img src="{{ asset('images/front_images/ntoursLogo.png') }}" alt="Logo">
                                     </a>
                                 </div>
                             </div>
@@ -75,7 +75,7 @@
                                     <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
                                             <ul class="navigation clearfix">
                                                 <li class="current">
-                                                    <a href="index.html">მთავარი</a>
+                                                    <a href="{{ url('/') }}">მთავარი</a>
                                                 </li>
                                                 @foreach($sections as $section)
                                                     @if(count($section['categories'])>0)
@@ -144,7 +144,7 @@
                                     <ul class="flex align-center">
                                         <li>
                                             <a href="login.html" class="flex-three">
-                                                <img src="{{ asset('images/front_images/page/avata.jpg') }}" alt="image">
+                                                <img src="{{ asset('images/front_images/page/user.png') }}" alt="image">
                                             </a>
                                         </li>
                                     </ul>
@@ -169,8 +169,8 @@
         <div class="menu-backdrop"></div>
         <nav class="menu-box">
             <div class="nav-logo">
-                <a href="index.html">
-                    <img src="{{ asset('images/front_images/logo2.png') }}" alt="">
+                <a href="{{ url('/') }}">
+                    <img src="{{ asset('images/front_images/ntoursLogo2.png') }}" alt="">
                 </a>
             </div>
             <div class="bottom-canvas">

@@ -52,6 +52,20 @@
             </div>
             <div class="card-body">
                 <div class="row">
+                    <div class="col-12 col-sm-6">
+                        <div class="form-group">
+                            <label for="title">ბანერის წარწერა</label>
+                            <input type="text" class="form-control" id="title" name="title" placeholder="ბანერის სახელი" @if(!empty($banner['title'])) value="{{ $banner['title'] }}" @else value="{{ old('title') }}" @endif>
+                        </div>
+                        <div class="form-group">
+                            <label for="button">ბანერის ღილაკი</label>
+                            <input type="text" class="form-control" id="button" name="button" placeholder="ბანერის ღილაკი" @if(!empty($banner['button'])) value="{{ $banner['button'] }}" @else value="{{ old('button') }}" @endif>
+                        </div>
+                        <div class="form-group">
+                            <label for="link">ბანერის ბმული</label>
+                            <input type="text" class="form-control" id="link" name="link" placeholder="ბანერის ბმული" @if(!empty($banner['link'])) value="{{ $banner['link'] }}" @else value="{{ old('link') }}" @endif>
+                        </div>
+                    </div>
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="image">ბანერის ფოტო</label>
@@ -71,22 +85,13 @@
                                 </div>
                             @endif
                         </div>
-                    </div>
-                    <div class="col-12 col-sm-6">
                         <div class="form-group">
-                            <label for="title">ბანერის სახელი</label>
-                            <input type="text" class="form-control" id="title" name="title" placeholder="ბანერის სახელი" @if(!empty($banner['title'])) value="{{ $banner['title'] }}" @else value="{{ old('title') }}" @endif>
+                            <label for="description">ბანერის ტექსტი</label>
+                            <input type="text" class="form-control" id="description" name="description" placeholder="ბანერის ტექსტი" @if(!empty($banner['description'])) value="{{ $banner['description'] }}" @else value="{{ old('description') }}" @endif>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-12 col-sm-6">
-                        <div class="form-group">
-                            <label for="alt">ალტერნატიული სახელი</label>
-                            <input type="text" class="form-control" id="alt" name="alt" placeholder="ალტერნატიული სახელი" @if(!empty($banner['alt'])) value="{{ $banner['alt'] }}" @else value="{{ old('alt') }}" @endif>
-                        </div>
-                    </div>
-                </div>
+
             </div>
             <div class="card-footer">
                 <button type="submit" class="btn btn-primary">დადასტურება</button>

@@ -38,9 +38,11 @@
                   <thead>
                   <tr>
                     <th>ID</th>
-                    <th>ფოტო</th>
                     <th>წარწერა</th>
-                    <th>ალტერნატიული</th>
+                    <th>ტექსტი</th>
+                    <th>ფოტო</th>
+                    <th>ღილაკი</th>
+                    <th>ბმული</th>
                     <th>მოქმედებები</th>
                   </tr>
                   </thead>
@@ -48,11 +50,13 @@
                     @foreach($banners as $banner)
                   <tr>
                     <td>{{ $banner['id'] }}</td>
+                    <td>{{ $banner['title'] }}</td>
+                    <td>{{ $banner['description'] }}</td>
                     <td>
                         <img style="width: 180px;" src="{{ asset('images/banner_images/'.$banner['image']) }}" alt="">
                     </td>
-                    <td>{{ $banner['title'] }}</td>
-                    <td>{{ $banner['alt'] }}</td>
+                    <td>{{ $banner['button'] }}</td>
+                    <td>{{ $banner['link'] }}</td>
                     <td>
                       <a title="ბანერის რედაქტირება" href="{{ url('admin/add-edit-banners/'.$banner['id']) }}"><i class="fas fa-edit"></i></a>
                       &nbsp;&nbsp;

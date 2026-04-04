@@ -30,7 +30,9 @@ class BannersController extends Controller
         if($request->isMethod('post')) {
             $data = $request->all();
             $banner->title = $data['title'];
-            $banner->alt = $data['alt'];
+            $banner->description = $data['description'];
+            $banner->button = $data['button'];
+            $banner->link = $data['link'];
             // Upload Product Image
             if($request->hasFile('image')) {
                 $image_tmp = $request->file('image');
