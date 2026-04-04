@@ -28,3 +28,30 @@ document.addEventListener('DOMContentLoaded', () => {
     // initMobileMenu();
     // initScrollTop();
 });
+
+// Slider on main page
+document.addEventListener('DOMContentLoaded', () => {
+    // Твоя функция даты (которую мы делали раньше)
+    initHeaderDate();
+
+    // Инициализация Swiper
+    const swiper = new Swiper('.mySwiper', {
+        // Настройки для автоплея (автоматическое переключение)
+        autoplay: {
+            delay: 5000, // 5 секунд
+            disableOnInteraction: false,
+        },
+        loop: true, // Зацикливание
+
+        // Навигация (стрелки)
+        navigation: {
+            nextEl: '.next-home1',
+            prevEl: '.prev-home1',
+        },
+
+        // Если хочешь добавить точки (пагинацию), добавь сюда:
+        // pagination: { el: '.swiper-pagination', clickable: true },
+
+        speed: 1000, // Скорость анимации
+    });
+});
